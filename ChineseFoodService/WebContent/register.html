@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="loginbox">
+<img src="abcd.jpg" class="avatar">
+<h1>Register Here</h1>
+<form method="post" action="RegisterServlet">
+
+<input type="text" required autocomplete="off" placeholder="First Name" name="firstname"/>
+<input type="text"required autocomplete="off" placeholder="Last Name" name="lastname"/>
+<input type="text"required autocomplete="off" placeholder="Username" name="username"/>
+ <input type="text"required autocomplete="off" placeholder="Address" name="address"/>
+  <input type="text"required autocomplete="off" placeholder="Contact Number" name="contactnumber"/>
+  <input type="email"required autocomplete="off" placeholder="Email Address" name="email"/>
+  <input type="password"required autocomplete="off" placeholder="Password" name="password"/>
+   <input type="password"required autocomplete="off" placeholder="Confirm Password" name="confirmpassword"/>
+
+      <p>Select Auth Type</p>
+    <select name="type">
+         <option value="user">User</option>
+		<option value="admin">Admin</option>
+	</select>
+
+   <input type="submit" value="Register"name="">
+
+</form>
+</div>
+</body>
+</html>

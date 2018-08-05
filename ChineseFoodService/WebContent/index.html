@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form Design</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div class="loginbox">
+<img src="abcd.png" class="avatar">
+<h1>Login Here</h1>
+<form method="post" action="LoginServlet">
+	
+<input type="text"required autocomplete="off" placeholder="Username" name="username"/>
+
+  <input type="password"required autocomplete="off" placeholder="Password" name="password"/> 
+
+  <p>Select Auth Type</p>
+          <select name="type">
+         <option value="user">User</option>
+		<option value="admin">Admin</option>
+		</select>
+  
+   <input type="submit" value="Login"name="">
+<a href="#">Lost your account  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+<a href="register.html">Don't have an account</a>
+</form>
+</div>
+</body>
+</html>
